@@ -38,6 +38,6 @@ export default class ChatScreen extends React.Component {
             );
         }
 
-        return <SafeAreaView style={{ flex: 1 }}>{chat}</SafeAreaView>;
+        return <SafeAreaView style={{ flex: 1, backgroundColor: "#3d788a" }}>{chat}</SafeAreaView>;
     }
 }

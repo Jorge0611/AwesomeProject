@@ -14,15 +14,14 @@ export default class LoginScreen extends React.Component {
     render() {
         return (
             <View style={styles.container}>
-                <View style={styles.circle} />
                 <View style={{ marginTop: 64 }}>
                     <Image
-                        source={require("../assets/chat.png")}
+                        source={require("../assets/chat2.png")}
                         style={{ width: 100, height: 100, alignSelf: "center" }}
                     />
                 </View>
                 <View style={{ marginHorizontal: 32 }}>
-                    <Text style={styles.header}>Username</Text>
+                    <Text style={styles.header}>Nombre de usuario</Text>
                     <TextInput
                         style={styles.input}
                         placeholder="DesignIntoCode"
@@ -76,7 +75,7 @@ const styles = StyleSheet.create({
         width: 70,
         height: 70,
         borderRadius: 70 / 2,
-        backgroundColor: "#9075E3",
+        backgroundColor: "#26C2F0",
         alignItems: "center",
         justifyContent: "center"
     }
